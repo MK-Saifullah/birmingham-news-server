@@ -8,7 +8,7 @@ app.use(cors());
 const categories = require('./data/categories.json');
 
 app.get('/', (req, res) => {
-    res.send('Hello, world!');
+    res.send('Hello, Khalid! Your Birmingham news is on live channel');
 })
 
 app.get('/news-categories', (req, res) => {
